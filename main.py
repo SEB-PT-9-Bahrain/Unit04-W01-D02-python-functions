@@ -42,3 +42,15 @@ search('Submarines')
 
 # Exercise 1
 # 1. Wrte a function that calculates area of triangle. It should take in base and height. formula: (base * height)/2
+
+
+# Exercise 2:
+# Write  a function that takes many or 1 argument and adds all the numbers together
+
+def sum_of_numbers(*args):
+    total = 0
+    for number in args:
+        total += number
+    return total
+
+print(sum_of_numbers(1,8))
