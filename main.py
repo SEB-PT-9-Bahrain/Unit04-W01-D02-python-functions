@@ -54,3 +54,18 @@ def sum_of_numbers(*args):
     return total
 
 print(sum_of_numbers(1,8))
+
+
+def double_number(number):
+    return number * number
+
+print(double_number(5))
+
+# SAME as Function above
+square_number_again = lambda number : number * number
+
+my_nums = [1,7,19,25,3,2]
+
+squared_nums = list(map(lambda number : number * number,my_nums))
+
+print(squared_nums)
